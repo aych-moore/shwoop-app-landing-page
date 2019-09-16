@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  font-size:1.2rem;
 }
 
 abbr[title],
@@ -11038,23 +11038,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 
-.how-to-play-tile{
-  padding:10px;
-}
-.how-to-play-tile-outer{
-  background: linear-gradient(to right, var(--shwoop-primary), var(--shwoop-secondary));
-  padding: 5px;
-  border-radius: 10px;
-}
 
-.how-to-play-tile-inner {
-  background: white;
-  color: white;
-  padding: 5rem;
-  width:100%;
-  height:100%;
-  border-radius: 5px;
-}
 
 .footer-menu ul li a{
   color:white;
@@ -11090,4 +11074,34 @@ form .row:first-child .floating-label-form-group {
     font-size:3rem;
     text-align: left;
   }
+}
+
+
+.how-to-play-tile{
+  padding:10px;
+  text-align: center;
+  padding-bottom:50px;
+}
+.how-to-play-tile h2{
+  line-height:2.5rem;
+}
+.step-number{
+  width:30%;
+  padding-bottom: 20px;
+}
+
+.copyright .container p{
+  margin-bottom:0;
+}
+
+.footer .container .row div h4{
+  padding:0;
+  margin:0 !important;
+}
+.footer .container .row div{
+  margin-bottom: 50px;
+}
+.footer{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
