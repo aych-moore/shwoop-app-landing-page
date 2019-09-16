@@ -232,17 +232,23 @@
       <div class="row">
 
         <!-- Footer Social Icons -->
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">Connect</h4>
           <a class="btn btn-outline-light btn-social mx-1" href="#">
             <i class="fab fa-fw fa-facebook-f"></i>
           </a>
         </div>
 
-        <!-- Footer About Text -->
-        <div class="col-lg-6">
+        <!-- Footer Contact Text -->
+        <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">Contact</h4>
           <p>jamie@shwoop.co.nz</p>
+        </div>
+
+        <!-- Footer Download Text -->
+        <div class="col-lg-4">
+            <h4 class="text-uppercase mb-4">Download</h4>
+            <button class="btn primary_btn" data-toggle="modal" data-target="#download-modal">Download</button>
         </div>
 
       </div>
@@ -279,22 +285,27 @@
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Download App</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+                
+                <!-- Divider -->
+                <div class="divider-custom"></div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                      <h1>Android</h1>
+                      <img class="store-logo" src="img/android-logo.png" alt="">
+                      <div class="divider-custom"></div>
+                      <a href="https://play.google.com/store/apps/details?id=com.shwoop&hl=en_US"><img class="play-button download-modal-buttons" src="img/get-on-play.png" alt="play store button"></a>
+              
+                    </div>
+                    <div class="col-lg-6">
+                      <h2>Apple</h2>
+                      <img class="store-logo" src="img/apple-logo.png" alt="">
+                      <div class="divider-custom"></div>
+                      <a href=""><img class="apple-button download-modal-buttons" src="img/get-on-apple.png" alt="apple store button"></a>
+                    </div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close
-                </button>
+                
+                <button class="btn primary_btn" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close</button>
               </div>
             </div>
           </div>
