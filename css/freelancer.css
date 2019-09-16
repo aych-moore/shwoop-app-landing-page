@@ -10763,7 +10763,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead {
-  padding-top: calc(6rem + 14px);
+  padding-top: calc(6rem + 34px);
   padding-bottom: 6rem;
   background-image: url("../img/home-banner.png");
   background-position: center;
@@ -10817,7 +10817,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .masthead .masthead-heading {
     font-size:4rem;
-    line-height: 3.5rem;
+    line-height: 4.5rem;
     text-align: left !important;
   }
   .masthead .masthead-subheading {
@@ -10956,7 +10956,7 @@ form .row:first-child .floating-label-form-group {
   text-align: center;
 }
 .scaled-image{
-  width:80%;
+  max-height:75vh;
 }
 
 
@@ -11060,4 +11060,34 @@ form .row:first-child .floating-label-form-group {
   color:white;
   padding:0 !important;
   margin:0;
+}
+
+#brand-partners .container .row div{
+  padding:1vw 3vw 1vw 3vw;
+}
+
+.scaled-image-vision{
+  height:50vh;
+}
+
+#vision .container .row div{
+  vertical-align: middle;
+  align-self: center;
+}
+#vision .container .row div p{
+  padding-top:20px;
+  font-size:1.5rem;
+  padding-bottom:20px;
+}
+#vision .container .row div h1{
+  line-height: 3.5rem;
+  font-size:1.8rem;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #vision .container .row div h1{
+    font-size:3rem;
+    text-align: left;
+  }
 }
