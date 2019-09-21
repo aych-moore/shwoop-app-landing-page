@@ -10600,18 +10600,20 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 10rem 0;
 }
 
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+  margin-bottom: 8vh !important;
 }
 
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
+    margin-bottom: 8vh !important;
   }
 }
 
@@ -10956,7 +10958,9 @@ form .row:first-child .floating-label-form-group {
   text-align: center;
 }
 .scaled-image{
-  max-height:75vh;
+  max-height:60vh;
+  margin-top:6vh;
+  margin-bottom:6vh;
 }
 
 
@@ -11051,7 +11055,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .scaled-image-vision{
-  height:50vh;
+  height:40vh;
 }
 
 #vision .container .row div{
@@ -11121,4 +11125,8 @@ form .row:first-child .floating-label-form-group {
   margin-top:-25px;
   width:80%;
   margin-bottom:50px;
+}
+
+.download-margin{
+  margin:3vh 0;
 }
